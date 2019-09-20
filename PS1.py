@@ -13,11 +13,11 @@ Problem Set 1
 # first group member (coder 1), your job is to first correct it 
 # and make a new variable with an error for the next group member to fix
 # after competign both steps, commit and push your changes to GitHub
-coder1 = 'hello world! python line " + 1 
+coder1 = "hello world! python line " + "1"
 print(coder1)
 
 # second group member's error to fix
-coder2 =
+coder2 = Line 2: 'Hello there!' said + (the world)
 
 # now the second group member should define a variable with an error
 # and then commit and push changes to GitHub
@@ -34,10 +34,10 @@ rt = [400, 450, 500, 440, -1, 410, 570]
 
 # the -1 indicates missing data. Your job is to remove it
 # use the index method to find the missing value 
-missing_rt =
+missing_rt = 
 
 # and then use missing_rt to remove the trial from rt
-clean_rt =
+clean_rt = 
 
 
 # now you have data with more than one missing value
@@ -47,8 +47,10 @@ rt_trouble = [400, 450, 500, 440, -1, 410, 570, -1, 400]
 # use a comment to explain why or why not below in comments
 
 
+#JMS - The same procedure didn't work because it only removed the first
+#instance that the value appeared in the list and not all of the instances 
 
-# now write an if statement that you can use to remove the frist missing value 
+# now write an if statement that you can use to remove the first missing value 
 # only when there is a missing value (-1) in a list 
 # this statement should always generate a clean_rt list; if there's no missing
 # data clean_rt is set to the original rt list.   
