@@ -21,11 +21,13 @@ coder1 = "hello world! python line " + "1"
 print(coder1)
 
 # second group member's error to fix
-coder2 = Line 2: 'Hello there!' said + (the world)
+coder2 = 'Line 2: ' 'Hello there! ' 'said ' + 'the world'
+print(coder2)
 
 # now the second group member should define a variable with an error
 # and then commit and push changes to GitHub
-coder3 =
+coder3 = coder1[0:6] + coder2[30:35] + '!': 
+print(coder3)
 
 # etc. until all group members have fixed and made 1 error
 
@@ -38,33 +40,26 @@ rt = [400, 450, 500, 440, -1, 410, 570]
 
 # the -1 indicates missing data. Your job is to remove it
 # use the index method to find the missing value 
-missing_rt = rt.index(-1)
+missing_rt =
 
 # and then use missing_rt to remove the trial from rt
-del rt[missing_rt]
-clean_rt = rt
+clean_rt =
+
 
 # now you have data with more than one missing value
 rt_trouble = [400, 450, 500, 440, -1, 410, 570, -1, 400]
 
 # try the same procedure. Does it work? 
 # use a comment to explain why or why not below in comments
-missing_rt = rt_trouble.index(-1)
-del rt_trouble[missing_rt]
 
-#JMS - The same procedure didn't work because it only removed the first
-#instance that the value appeared in the list and not all of the instances 
 
-# now write an if statement that you can use to remove the first missing value 
+
+# now write an if statement that you can use to remove the frist missing value 
 # only when there is a missing value (-1) in a list 
 # this statement should always generate a clean_rt list; if there's no missing
 # data clean_rt is set to the original rt list.   
 
-if rt.count(-1) > 0:
-    missing_rt = rt.index(-1)
-    del rt[missing_rt]
-elif rt.count(-1) == 0:
-    clean_rt = rt
+
 
 # for the last section, you will work with a list of lists:
 rt_new = [400, 450, 500, 440, -1, 410, 570]
@@ -79,9 +74,3 @@ data = [rt_new, trial_num, accuracy]
 # be sure to only work with the master data list, to practice indexing 
 # lists of lists
 
-if data[0].count(-1) > 0:
-    missing_rt = data[0].index(-1)
-    del data[0][missing_rt]
-    del data[1][missing_rt]
-elif data[0].count(-1) == 0:
-    clean_data = data
