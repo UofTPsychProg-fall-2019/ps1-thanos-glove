@@ -5,9 +5,7 @@ Problem Set 1
 @author: katherineduncan
 """
 
-#%% This is the final submission for Ben. The rest of the group (Tiana 
-#Simovic) will push a final submission for the whole group when 
-#everyone finishes
+# This is the final group submission for Thanos' Glove. Pushed by Tiana Simovic.
 
 #%% Part 1: pass the error forward ____________________________________________
 # this should be completed one at a time to get practice using GitHub
@@ -26,12 +24,12 @@ print(coder2)
 
 # now the second group member should define a variable with an error
 # and then commit and push changes to GitHub
-coder3 = coder1[0:6] + coder2[30:35] + '!': 
+coder3 = coder1[0:6] + coder2[30:35] + '!'
 print(coder3)
 
 # etc. until all group members have fixed and made 1 error
 
-
+finalcode = coder1[0:5] + ", " + class!
 
 #%%  Part 2  find and remove the invalid response______________________________
 
