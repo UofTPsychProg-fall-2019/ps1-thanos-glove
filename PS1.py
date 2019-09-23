@@ -5,10 +5,10 @@ Problem Set 1
 @author: katherineduncan
 """
 
-# This is the final group submission for Thanos' Glove. Pushed by Tiana Simovic.
+# This is the actual final group submission for Thanos' Glove. Pushed by Ben.
 
 # coder 1 = Joseph Saito
-# coder 2 = Ben Park
+# coder 2 = Ben 'Hyun Goo' Park
 # coder 3 = Tiana Simovic
 
 #%% Part 1: pass the error forward ____________________________________________
@@ -56,8 +56,10 @@ rt_trouble = [400, 450, 500, 440, -1, 410, 570, -1, 400]
 missing_rt = rt_trouble.index(-1)
 del(rt_trouble[missing_rt])
 clean_rt = rt_trouble; #not actually clean
+# JMS - The same procedure didn't work because it only removed the first
+# instance that the value appeared in the list and not all of the instances 
 # BEN: This does not work for the second '-1' in the list because 
-# rt_trouble.index returns the position of only the first '-1' in the list.
+# TIANA: rt_trouble.index returns the position of only the first '-1' in the list.
 
 # now write an if statement that you can use to remove the frist missing value 
 # only when there is a missing value (-1) in a list 
