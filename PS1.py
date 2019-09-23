@@ -7,7 +7,7 @@ Problem Set 1
 
 #%% This is the final submission for Ben. The rest of the group (Tiana 
 #Simovic) will push a final submission for the whole group when 
-#everyone finishes.
+#everyone finishes
 
 #%% Part 1: pass the error forward ____________________________________________
 # this should be completed one at a time to get practice using GitHub
@@ -53,7 +53,7 @@ rt_trouble = [400, 450, 500, 440, -1, 410, 570, -1, 400]
 # use a comment to explain why or why not below in comments
 missing_rt = rt_trouble.index(-1)
 del(rt_trouble[missing_rt])
-clean_rt = rt; #not actually clean
+clean_rt = rt_trouble; #not actually clean
 # BEN: This does not work for the second '-1' in the list because 
 # rt_trouble.index returns the position of only the first '-1' in the list.
 
@@ -91,9 +91,9 @@ if (-1 in rt_new):
     del(data[0][missing_rt])
     del(data[1][missing_rt])
     del(data[2][missing_rt])
-    print('rt_new was not clean')
+    print('data was not clean')
 else:
-    print('rt_new was clean')
+    print('data was clean')
     
 clean_data = data
 
