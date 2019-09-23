@@ -7,6 +7,10 @@ Problem Set 1
 
 # This is the final group submission for Thanos' Glove. Pushed by Tiana Simovic.
 
+# coder 1 = Joseph Saito
+# coder 2 = Ben Park
+# coder 3 = Tiana Simovic
+
 #%% Part 1: pass the error forward ____________________________________________
 # this should be completed one at a time to get practice using GitHub
 
