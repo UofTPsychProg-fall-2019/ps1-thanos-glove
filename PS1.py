@@ -56,10 +56,9 @@ rt_trouble = [400, 450, 500, 440, -1, 410, 570, -1, 400]
 missing_rt = rt_trouble.index(-1)
 del(rt_trouble[missing_rt])
 clean_rt = rt_trouble; #not actually clean
-# JMS - The same procedure didn't work because it only removed the first
-# instance that the value appeared in the list and not all of the instances 
-# BEN: This does not work for the second '-1' in the list because 
-# TIANA: rt_trouble.index returns the position of only the first '-1' in the list.
+
+# The same procedure didn't work because rt_trouble.index returns only the first
+# instance that the value '-1' appeared in the list and not all of the instances 
 
 # now write an if statement that you can use to remove the frist missing value 
 # only when there is a missing value (-1) in a list 
